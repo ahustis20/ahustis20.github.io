@@ -1,0 +1,9 @@
+<html>
+	<title>Images</title>
+	
+    	<body>
+    	  
+    	  <p><img src="JavaScript/Images/maddie.jpg" style= "width:100px; height:200px"></p>
+    	  
+    	</body>
+</html>
