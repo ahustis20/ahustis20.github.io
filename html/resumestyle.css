@@ -1,0 +1,45 @@
+
+body {
+  font-family:Tahoma, Geneva,sans-serif;
+}
+
+#name   {
+  
+  text-align:center; width:65%;
+  
+      }
+
+#address    {
+  
+  background-color:	#48D1CC ; color:white ; font-size:120% ; text-align:center; width:65%;
+
+      }
+#phone    {
+  
+  font-size:120% ; text-align:center ; width:65%;
+  
+      }
+.table{
+  width:50%
+}
+.theader{
+  text-align: center
+}
+.theader2{
+  text-align: right;
+}
+.split{
+  background-color: #48D1CC ; font-size:2px; color: #48D1CC; width:65%;
+}
+.button {
+    background-color: #48D1CC;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    
+}
