@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title> Assignment 3</title>
+  <style type="text/css"></style>
+  
+</head>
+  
+<body>
+  
+  <script>
+    var guess = prompt("Pick a number between 0 and 5");
+    var number = Math.floor(Math.random()* 6);
+    var count = 1;
+    
+    if(guess==number){
+      alert("You guess the right number on the first try!");
+    } else { 
+      while (guess != number) {
+        guess = prompt("You were wrong and you need to guess again!");
+        count = count + 1
+      }
+      alert("You were right! The number was " + number + " and it only took you " + count + " guesses!");
+      }
+     
+  </script>
+  
+</body>
+  
+</html>
