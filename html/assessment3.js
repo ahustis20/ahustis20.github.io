@@ -1,4 +1,4 @@
- 
+function login () { 
   var guess = prompt("Please type in your password");
   var password = "ilovekarl";
         
@@ -10,4 +10,5 @@
         }
         alert("You have been successfully logged in");
       }
+}
         
