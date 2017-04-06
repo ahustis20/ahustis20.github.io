@@ -1,44 +1,48 @@
 <html>
 <head>
-  <title>Assignment 2 - Resume</title>
+  <title>Assignment 6 - Resume</title>
   <link href="resumestyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<script type="text/javascript" src="resumejavascript.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+    $( "#accordion" ).accordion();
+} );
+</script>
   <a href ="http://abbeyh2018.weebly.com/" target="_blank" class="button"> Example of writing and use of technology </a>
   <a href ="http://kiterunnerprg.weebly.com/" target="_blank" class="button">Second Example </a>
   <h1 id="name" >Abbey Hustis</h1>
     <p id="address" > 123 Mr. Fisch Way Fischville, FI 80000 </p>
     <p id="phone">123.456.7890 <br /> Work: <a href="mailto:abigailh153@lpsk12.org">abigailh153@lpsk12.org</a><br /> personal: <a href="mailto:ahustis20@gmail.com">ahustis20@gmail.com</a></p>
 <p class="split">...</p>
+<div id="accordion">
   <h2>Summary</h2>
-    <p>I’m young and eager to work hard to get where I want to in life. I am looking to gain experience as I move forward in <br /> my life.
+    <div>
+    <p> I'm young and eager to work hard to get where I want to in life. I am looking to gain experience as I move forward in <br /> my life.
     I'm reliable and friendly, and able to work with little oversight but I also accept criticism with an open mind and <br /> am always eager to improve   </p>
-<p class="split">...</p>
+    </div>
+
   <h2>Work Experience</h2>
-    <table class="table">
-      <tr>
-        <th class="theader"> South Suburban - Colorado Miniature Golf </th>
-        <th class="theader"> May 2016 - Current </th>
-      </tr>
-    </table>
+  <div>
+      <p class="title"> South Suburban - Colorado Miniature Golf (May 2016 - Current) </p>
     <ul>
       <li> Sold games of golf as well as concessions</li>
       <li> Took and made phone calls with customers regrading reservations </li>
       <li> Restocked and counted concessions </li>
       <li> Responsible for handling, counting, and balancing the register </li>
     </ul>
-    <table class="table">
-      <tr>
-        <th class ="theader">Babysitting </th>
-        <th class="theader"> 2013 - Current </th>
-      </tr>
-    </table>
+    <p class="title"> Babysitting (2013 - Current)</p>
     <ul>
       <li> Babysat for 6 different families regularly over the course of 4 years</li>
       <li> Ages ranging from 5 months to 10 years old </li>
     </ul>
-<p class="split">...</p>
+  </div>
+
   <h2> Extracurricular Experience </h2>
+  <div>
     <ul>
       <li> Competitive club softball that spans from February to July - since 2014 </li>
       <li> High school softball from August to October - since 2014 </li>
@@ -46,19 +50,25 @@
       <li> National Honors Society Member </li>
       <li> Link Crew Leader </li>
     </ul>
-<p class="split">...</p>
+  </div>
+
   <h2> Education </h2>
+  <div>
     <ul>
       <li> Arapahoe High School Junior - Advanced Placement Statistics</li>
     </ul>
-<p class="split">...</p>
+  </div>
+
   <h2> Additional Skills </h2>
+  <div>
     <ul>
       <li> Quick learner </li>
       <li> Proficient at PowerPoint and Word </li>
       <li> Proficient with techonology </li>
       <li> Good writer </li>
     </ul>
+  </div>
+</div>
   
 </body>
 
