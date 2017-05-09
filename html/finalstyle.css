@@ -2,26 +2,54 @@
 
 }
 
-/*body {
-  background-image: url("owlslogo.jpg");
-  background-size: 250px 250px;
-  background-repeat: repeat-x;
+.header{
+  text-align: center;
+  font-size: 40px;
+  
 }
 
-*/
+#homePageImage {
+  width:640px;
+  height:400px;
+  margin:auto;
+  display:block;
+  float: left;
+}
+
+#parent{
+  display:table;
+}
+
+#homePageText {
+  display:table-cell;
+  vertical-align:middle;
+  font-weight:bold;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-size:25px;
+  position: absolute;
+  right: 5px;
+  width:660px;
+}
+
+body {
+  background-image: url("Images/owlslogo2.jpg");
+  background-size: 85px 85px;
+  background-repeat: repeat-x;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
 
 .button {
-    background-color: #48D1CC;
+    background-color: #0040ff;
     border: none;
-    border-radius: 5px;
-    color: black;
+    color: white;
     padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 5px;
-    width: 150px;
+    font-size: 20px;
+    font-weight:bold;
+    margin: 1px;
+    width: 318px;
     
 }
 
@@ -31,4 +59,13 @@
 
 .table{
   text-align: center;
+  width:100%;
 }
+
+/*#rosterPageImage {
+  width:100px;
+  height:100px;
+  margin:auto;
+  display:block;
+  float: right;
+}*/
