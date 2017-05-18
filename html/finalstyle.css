@@ -1,10 +1,8 @@
-#nav {
-
-}
 
 .header{
   text-align: center;
   font-size: 40px;
+  color:black;
   
 }
 
@@ -36,6 +34,8 @@ body {
   background-size: 85px 85px;
   background-repeat: repeat-x;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
+  background-color:grey;
+  color:white;
 }
 
 .button {
@@ -62,10 +62,10 @@ body {
   width:100%;
 }
 
-/*#rosterPageImage {
-  width:100px;
-  height:100px;
-  margin:auto;
-  display:block;
-  float: right;
-}*/
+#pictures{
+  padding: 5px;
+  border: 2px;
+  margin: 10px;
+}
+
+
