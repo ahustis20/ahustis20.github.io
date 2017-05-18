@@ -62,3 +62,7 @@ body {
   width:100%;
 }
 
+.pictures{
+  float:left;
+  margin:auto;
+}
